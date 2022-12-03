@@ -1,4 +1,6 @@
-Advent of Code 2022
+# Advent of Code 2022
+
+[![aoc](https://github.com/alfeg/adventofcode2022/actions/workflows/dotnet.yml/badge.svg)](https://github.com/alfeg/adventofcode2022/actions/workflows/dotnet.yml)
 ---
 
 https://adventofcode.com/2022
