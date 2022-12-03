@@ -1,29 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace adventofcode2022.Day1;
 
-namespace adventofcode2022.Day1;
-
-internal static class SolverDay1
+internal class SolverDay1 : ISolver
 {
-    public static async Task Solve()
+    public async IAsyncEnumerable<(int day, int part, object answer)> Solve()
     {
         var elves = new List<long>();
         var max = 0L;
-        using var fs = File.OpenRead("Day1/input.txt");
-        using var sr = new StreamReader(fs);
 
         var currentElf = 0L;
-        while (!sr.EndOfStream)
+        await foreach (var line in InputReader.ReadInput("Day1/input.txt"))
         {
-            var line = await sr.ReadLineAsync();
             if (string.IsNullOrWhiteSpace(line))
             {
                 if (currentElf > max)
                 {
-                    max = currentElf;                        
+                    max = currentElf;
                 }
 
                 elves.Add(currentElf);
@@ -39,10 +30,9 @@ internal static class SolverDay1
         if (currentElf > max)
         {
             max = currentElf;
-            currentElf = 0;
         }
 
-        Console.WriteLine(max);
-        Console.WriteLine(elves.OrderByDescending(e => e).Take(3).Sum());
-    }    
+        yield return (1, 1, max);
+        yield return (1, 2, elves.OrderByDescending(e => e).Take(3).Sum());
+    }
 }
