@@ -1,20 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+<!--    <OutputType>Exe</OutputType>-->
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>aoc</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="**\*.txt">
+    <None Update="Inputs\*.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Using Include="adventofcode2022.Solver" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />    
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit.ConsoleRunner" Version="3.16.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.3.1" />
+    <PackageReference Include="Scrutor" Version="4.2.0" />
     <PackageReference Include="Spectre.Console" Version="0.45.0" />
   </ItemGroup>
 

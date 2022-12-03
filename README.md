@@ -1,33 +1,19 @@
 Advent of Code 2022
 ---
 
-[DAY1](/Day1/Readme.md)
-
-[DAY2](/Day2/Readme.md)
-
-[DAY3](/Day3/Readme.md)
+https://adventofcode.com/2022
 
 ```
-     _          _                          _        ___     __      ____               _        
-    / \      __| | __   __   ___   _ __   | |_     / _ \   / _|    / ___|   ___     __| |   ___ 
-   / _ \    / _` | \ \ / /  / _ \ | '_ \  | __|   | | | | | |_    | |      / _ \   / _` |  / _ \
-  / ___ \  | (_| |  \ V /  |  __/ | | | | | |_    | |_| | |  _|   | |___  | (_) | | (_| | |  __/
- /_/   \_\  \__,_|   \_/    \___| |_| |_|  \__|    \___/  |_|      \____|  \___/   \__,_|  \___|
-                                                                                                
-                                                                  ____     ___    ____    ____  
-                                                                 |___ \   / _ \  |___ \  |___ \ 
-                                                                   __) | | | | |   __) |   __) |
-                                                                  / __/  | |_| |  / __/   / __/ 
-  _____   _____   _____   _____   _____   _____   _____   _____  |_____|  \___/  |_____| |_____|
- |_____| |_____| |_____| |_____| |_____| |_____| |_____| |_____|                                
-┌─────┬──────┬────────┐
-│ Day │ Part │ Answer │
-├─────┼──────┼────────┤
-│ 1   │ 1    │  71506 │
-│ 1   │ 2    │ 209603 │
-│ 2   │ 1    │  10816 │
-│ 2   │ 2    │  11657 │
-│ 3   │ 1    │   7581 │
-│ 3   │ 2    │   2525 │
-└─────┴──────┴────────┘
+dotnet test
+```
+
+These are your personal leaderboard statistics. Rank is your position on that leaderboard: 1 means you were the first person to get that star, 2 means the second, 100 means the 100th, etc. Score is the number of points you got for that rank: 100 for 1st, 99 for 2nd, ..., 1 for 100th, and 0 otherwise.
+
+```
+      --------Part 1---------   --------Part 2---------
+Day       Time    Rank  Score       Time    Rank  Score
+  3   14:05:43   80845      0   14:17:25   74676      0
+  2       >24h  131173      0       >24h  125868      0
+  1   03:35:37   28867      0   03:37:21   26909      0
+
 ```
