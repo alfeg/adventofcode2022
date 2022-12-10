@@ -12,6 +12,7 @@ dotnet test
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+5       >24h  120692      0       >24h  118588      0
 4   00:08:01    3324      0   00:16:08    5217      0     - hmmm, ok =) That's a lot of people playing )
 3   14:05:43   80845      0   14:17:25   74676      0
 2       >24h  131173      0       >24h  125868      0
