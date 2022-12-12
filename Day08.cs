@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿// https://adventofcode.com/2022/day/8
+
 using NUnit.Framework;
 
 namespace aoc;

@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿// https://adventofcode.com/2022/day/2
+
+using NUnit.Framework;
 
 namespace aoc;
 
